@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caypop Stickers</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/icono.jpeg">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>xd
+<body>
     <nav class="navbar">
         <ul class="list-body">
             <li class="list-container"><a href="#" class="list-link neon-link">REDES</a></li>
             <li class="list-container"><img src="assets/icono.jpeg" alt="" class="list-icono"></li>
-            <li class="list-container"><a href="#" class="list-link neon-link">PRODUCTOS</a></li>
+            <li class="list-container">
+                <div class="dropdown">
+                    <a href="#" class="menu-link">REDES SOCIALES</a>
+                    <div class="dropdown-content">
+                        <a class="list-link neon-link" href="https://www.instagram.com/capyy_popp_/">Instagram</a>
+                    </div>
+                </div>
+            </li>
         </ul>
     </nav>
     <div class="scroll-arrow">
@@ -24,13 +31,18 @@
     <section class="imagenes">
         <div class="text-center">
             <h2 class="dif-apli">Seccion: Stickers</h2>
-          </div>
+        </div>
         <div id="products-container"></div>
         <div class="text-center">
             <h2 class="dif-apli">Seccion: Photocards </h2>
-          </div>
+        </div>
         <div id="other-products-container"></div>
+        <div class="text-center">
+            <h2 class="dif-apli">Seccion: Polaroids </h2>
+        </div>
+        <div id="more-products-container"></div>
     </section>
     <script src="script.js"></script>
+    <script src="redes.js"></script>
 </body>
 </html>
